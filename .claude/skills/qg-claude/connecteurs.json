@@ -1,0 +1,20 @@
+{
+  "_note": "Catalogue des connecteurs utiles pour gagner de l'argent avec Claude. 'categorie' sert au regroupement. La disponibilite reelle se verifie dans Claude (ListConnectors pour ce qui est installe, SearchMcpRegistry pour l'annuaire).",
+  "connecteurs": [
+    {"id": "shopify", "nom": "Shopify", "categorie": "vente", "permet": "Creer une boutique, des produits physiques et numeriques, des remises, lire commandes et analytics.", "argent": "Encaisser: c'est la caisse du QG."},
+    {"id": "canva", "nom": "Canva", "categorie": "creation", "permet": "Generer, modifier, redimensionner et exporter des designs, images, presentations et videos.", "argent": "Fabriquer ce qui se vend: visuels, templates, mockups, slides."},
+    {"id": "gmail", "nom": "Gmail", "categorie": "relation client", "permet": "Chercher, resumer, rediger et envoyer des emails, gerer les libelles.", "argent": "Prospection, suivi client, support, newsletter manuelle."},
+    {"id": "notion", "nom": "Notion", "categorie": "organisation", "permet": "Pages, bases de donnees, calendrier, dupliquer des pages, memoire.", "argent": "CRM, pipeline, templates Notion a vendre, livrables clients."},
+    {"id": "perplexity", "nom": "Perplexity Computer", "categorie": "recherche", "permet": "Reprendre des tableaux de bord Claude et continuer a les construire.", "argent": "Etudes de marche et dashboards livrables a des clients."},
+    {"id": "github", "nom": "GitHub", "categorie": "technique", "permet": "Depots, issues, pull requests, publication de code et de skills.", "argent": "Vendre et livrer des skills, agents et automatisations."},
+    {"id": "claude_docs", "nom": "Claude Docs", "categorie": "creation", "permet": "Documents vivants exportables en PDF, Word, Markdown, Google Docs.", "argent": "Guides, ebooks, rapports, propositions commerciales."},
+    {"id": "higgsfield", "nom": "Higgsfield AI", "categorie": "creation", "permet": "Generation de videos et d'images par IA.", "argent": "Publicites video courtes pour marques e-commerce."},
+    {"id": "stripe", "nom": "Stripe", "categorie": "vente", "permet": "Liens de paiement, abonnements, factures, suivi des encaissements.", "argent": "Encaisser des services et des abonnements hors Shopify."},
+    {"id": "google_drive", "nom": "Google Drive", "categorie": "organisation", "permet": "Lire et creer Docs, Sheets, Slides.", "argent": "Livrables clients, suivi financier partage."},
+    {"id": "slack", "nom": "Slack", "categorie": "relation client", "permet": "Lire et poster dans des canaux.", "argent": "Communaute payante, support client premium."},
+    {"id": "hubspot", "nom": "HubSpot", "categorie": "relation client", "permet": "CRM: contacts, entreprises, transactions.", "argent": "Pipeline de prospection pour une activite de services."},
+    {"id": "airtable", "nom": "Airtable", "categorie": "organisation", "permet": "Bases de donnees partagees.", "argent": "Catalogues produits, suivi de missions."},
+    {"id": "wordpress", "nom": "WordPress", "categorie": "vente", "permet": "Publier et modifier articles et pages.", "argent": "Blog SEO et affiliation, sites clients."},
+    {"id": "figma", "nom": "Figma", "categorie": "creation", "permet": "Lire et generer des maquettes.", "argent": "Design UI pour clients, kits a vendre."}
+  ]
+}

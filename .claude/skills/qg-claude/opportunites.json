@@ -1,0 +1,260 @@
+{
+  "_note": "Ordres de grandeur indicatifs apres environ 3 mois d'effort regulier, pour une personne seule. Ce ne sont pas des promesses: beaucoup de projets ne gagnent rien. Mets a jour avec tes propres chiffres (journal).",
+  "opportunites": [
+    {
+      "id": "produits-numeriques",
+      "nom": "Templates et printables Canva vendus sur Shopify",
+      "resume": "Planners, kits reseaux sociaux, CV, menus: concus avec Claude, produits dans Canva, vendus en produits numeriques Shopify.",
+      "requis": ["canva", "shopify"], "optionnels": ["notion", "gmail"],
+      "cout_depart_eur": 40, "heures_min_semaine": 5, "jours_premier_euro": 30,
+      "revenu_mensuel_eur": [0, 600], "difficulte": 2, "risque": "faible",
+      "competences": ["design"],
+      "plan": [
+        "S1: Claude etudie 3 niches (demande, prix, concurrence) et choisit-en une; Shopify genere nom et apercu de boutique.",
+        "S2: 10 produits dans Canva (generate-design puis export PDF/PNG), fiches produit redigees par Claude.",
+        "S3: create-digital-product + upload des fichiers sur Shopify, une remise de lancement (create-discount).",
+        "S4: 20 visuels promo Canva, publication, lecture des premieres ventes (run-analytics-query) et ajustement des prix."
+      ],
+      "pieges": ["Marche sature: une niche precise vend mieux qu'un theme large.", "Respecter la licence Canva pour la revente de templates."],
+      "legal": "Micro-entreprise (vente de biens numeriques, TVA en franchise sous le seuil). Mentions legales et CGV sur la boutique."
+    },
+    {
+      "id": "print-on-demand",
+      "nom": "Boutique print-on-demand (t-shirts, posters, mugs)",
+      "resume": "Designs Canva, boutique Shopify reliee a un service d'impression a la demande, pas de stock.",
+      "requis": ["shopify", "canva"], "optionnels": ["higgsfield", "gmail"],
+      "cout_depart_eur": 120, "heures_min_semaine": 8, "jours_premier_euro": 45,
+      "revenu_mensuel_eur": [0, 800], "difficulte": 3, "risque": "moyen",
+      "competences": ["design", "marketing"],
+      "plan": [
+        "S1: niche et 3 personas par Claude, nom et domaine via Shopify (generate-business-names, generate-domain-names).",
+        "S2: 15 designs Canva, verification qu'aucun ne reprend une marque ou une oeuvre protegee.",
+        "S3: produits et collections Shopify, application print-on-demand, commande d'echantillon.",
+        "S4: publicites test a petit budget, mesure du cout par vente, on garde les 3 meilleurs designs."
+      ],
+      "pieges": ["Marges faibles apres impression et pub.", "Contrefacon: jamais de personnages, logos ou citations protegees."],
+      "legal": "Micro-entreprise vente de marchandises. Droit de retractation 14 jours a gerer."
+    },
+    {
+      "id": "templates-notion",
+      "nom": "Templates Notion a vendre",
+      "resume": "Systemes Notion prets a l'emploi (CRM freelance, suivi budget, contenu) construits avec le connecteur Notion.",
+      "requis": ["notion"], "optionnels": ["shopify", "canva"],
+      "cout_depart_eur": 0, "heures_min_semaine": 4, "jours_premier_euro": 30,
+      "revenu_mensuel_eur": [0, 500], "difficulte": 2, "risque": "faible",
+      "competences": ["organisation"],
+      "plan": [
+        "S1: Claude liste les problemes recurrents d'un public precis (ex: artisans, etudiants infirmiers).",
+        "S2: construire 2 templates (notion-create-database, notion-create-view), les tester sur un vrai cas.",
+        "S3: page de vente, captures et couverture Canva, vente en produit numerique Shopify (lien de duplication).",
+        "S4: version gratuite allegee pour attirer, collecte d'emails, montee en gamme."
+      ],
+      "pieges": ["Un template gratuit equivalent existe souvent: vendre un resultat, pas une base vide."],
+      "legal": "Micro-entreprise. Preciser la licence d'usage (personnel, non revendable)."
+    },
+    {
+      "id": "redaction-freelance",
+      "nom": "Redaction et traduction freelance assistees par Claude",
+      "resume": "Articles SEO, fiches produit, newsletters et traductions pour des entreprises, relus et signes par toi.",
+      "requis": ["gmail"], "optionnels": ["claude_docs", "notion", "google_drive"],
+      "cout_depart_eur": 0, "heures_min_semaine": 8, "jours_premier_euro": 14,
+      "revenu_mensuel_eur": [200, 2000], "difficulte": 2, "risque": "faible",
+      "competences": ["redaction"],
+      "plan": [
+        "S1: offre claire (ex: 4 articles SEO par mois pour artisans locaux), 3 exemples rediges et relus.",
+        "S2: liste de 50 prospects dans Notion, 20 emails personnalises en brouillon Gmail (create_draft), envoyes par toi.",
+        "S3: relances, premiers appels, devis dans Claude Docs.",
+        "S4: livrer, demander un temoignage, transformer en abonnement mensuel."
+      ],
+      "pieges": ["Ne jamais livrer du texte non relu: la qualite et l'exactitude sont ta responsabilite.", "Dire au client que tu utilises l'IA si le contrat ou la loi l'exige."],
+      "legal": "Micro-entreprise prestation de services (BNC). Facture avec mentions obligatoires."
+    },
+    {
+      "id": "contenu-reseaux-commerces",
+      "nom": "Contenu reseaux sociaux pour commerces locaux",
+      "resume": "Calendrier editorial, visuels Canva et textes pour restaurants, salons, artisans, au forfait mensuel.",
+      "requis": ["canva", "gmail"], "optionnels": ["notion", "higgsfield"],
+      "cout_depart_eur": 15, "heures_min_semaine": 8, "jours_premier_euro": 21,
+      "revenu_mensuel_eur": [300, 2500], "difficulte": 2, "risque": "faible",
+      "competences": ["design", "marketing"],
+      "plan": [
+        "S1: kit de marque d'exemple dans Canva, offre a 3 paliers.",
+        "S2: demarcher 30 commerces (emails Gmail en brouillon, visite en personne), proposer 1 semaine offerte.",
+        "S3: calendrier du mois dans Notion, 12 visuels Canva par client (resize-design pour chaque reseau).",
+        "S4: rapport mensuel simple, renouvellement, recommandations."
+      ],
+      "pieges": ["Les clients veulent des resultats: fixer des attentes realistes.", "Images: n'utiliser que des photos du client ou sous licence."],
+      "legal": "Micro-entreprise services. Contrat simple avec droits d'utilisation des creations."
+    },
+    {
+      "id": "automatisation-pme",
+      "nom": "Automatisations Claude pour PME (skills, agents, connecteurs)",
+      "resume": "Installer Claude et ses connecteurs chez une PME, ecrire des skills sur mesure (devis, tri d'emails, reporting).",
+      "requis": ["github"], "optionnels": ["notion", "gmail", "google_drive", "slack"],
+      "cout_depart_eur": 0, "heures_min_semaine": 10, "jours_premier_euro": 30,
+      "revenu_mensuel_eur": [500, 5000], "difficulte": 4, "risque": "moyen",
+      "competences": ["technique", "vente"],
+      "plan": [
+        "S1: 2 skills de demonstration sur GitHub (comme ce depot), une page d'offre avec prix fixe.",
+        "S2: 30 prospects dans un secteur (agences immo, cabinets comptables), emails Gmail personnalises.",
+        "S3: audit gratuit de 30 minutes, proposition chiffree en Claude Docs.",
+        "S4: premiere mission livree, maintenance mensuelle proposee."
+      ],
+      "pieges": ["Donnees clients: ne connecter que ce qui est necessaire, permissions 'Needs approval'.", "Ne pas promettre une automatisation a 100 %."],
+      "legal": "Prestation de services. RGPD: le client reste responsable de ses donnees, toi sous-traitant (clause dans le contrat)."
+    },
+    {
+      "id": "skills-premium",
+      "nom": "Packs de skills Claude (open source + support payant)",
+      "resume": "Publier des skills gratuites sur GitHub pour la visibilite, vendre installation, personnalisation ou version pro.",
+      "requis": ["github"], "optionnels": ["shopify", "stripe", "claude_docs"],
+      "cout_depart_eur": 0, "heures_min_semaine": 6, "jours_premier_euro": 60,
+      "revenu_mensuel_eur": [0, 1500], "difficulte": 4, "risque": "moyen",
+      "competences": ["technique"],
+      "plan": [
+        "S1: choisir un metier precis, ecrire 3 skills utiles avec tests.",
+        "S2: README clair, demo video, publication.",
+        "S3: offre d'installation payante (produit numerique Shopify ou lien Stripe).",
+        "S4: recueillir les retours, version pro avec fonctions demandees."
+      ],
+      "pieges": ["Visibilite lente: compter des mois.", "Une skill qui touche a l'argent d'autrui (trading, compta) exige des garde-fous et des avertissements."],
+      "legal": "Licence claire (MIT pour la version gratuite). Micro-entreprise pour les ventes."
+    },
+    {
+      "id": "gestion-boutiques",
+      "nom": "Service de gestion de boutiques Shopify",
+      "resume": "Fiches produit SEO, collections, remises, rapports de ventes pour des marchands, via le connecteur Shopify.",
+      "requis": ["shopify", "gmail"], "optionnels": ["canva", "notion"],
+      "cout_depart_eur": 0, "heures_min_semaine": 8, "jours_premier_euro": 30,
+      "revenu_mensuel_eur": [300, 3000], "difficulte": 3, "risque": "faible",
+      "competences": ["redaction", "marketing"],
+      "plan": [
+        "S1: monter une boutique demo (import-mock-shop-catalog) et y montrer avant/apres des fiches.",
+        "S2: prospecter des petites boutiques Shopify par email.",
+        "S3: premier client: acces collaborateur, reecriture de 50 fiches (update-product), rapport analytics.",
+        "S4: forfait mensuel: rapport, promos saisonnieres, collections."
+      ],
+      "pieges": ["Jamais d'action sur la boutique d'un client sans son accord ecrit.", "Garder une trace de chaque modification."],
+      "legal": "Prestation de services. Acces collaborateur Shopify plutot que partage de mot de passe."
+    },
+    {
+      "id": "ebooks-guides",
+      "nom": "Guides et ebooks pratiques",
+      "resume": "Guides courts et tres concrets ecrits avec Claude Docs, couverture Canva, vente sur Shopify.",
+      "requis": ["shopify", "claude_docs"], "optionnels": ["canva", "gmail"],
+      "cout_depart_eur": 0, "heures_min_semaine": 5, "jours_premier_euro": 45,
+      "revenu_mensuel_eur": [0, 400], "difficulte": 2, "risque": "faible",
+      "competences": ["redaction"],
+      "plan": [
+        "S1: sujet ou tu as une vraie experience, plan valide par 5 personnes du public cible.",
+        "S2: redaction dans Claude Docs, relue et enrichie de tes exemples.",
+        "S3: export PDF, couverture Canva, produit numerique Shopify.",
+        "S4: extraits gratuits, emails, premiers avis."
+      ],
+      "pieges": ["Un ebook generique ecrit par IA ne se vend pas: ton experience est le produit.", "Verifier chaque fait."],
+      "legal": "Micro-entreprise. TVA sur e-services pour clients UE au-dela de 10 000 EUR de ventes."
+    },
+    {
+      "id": "formation-ia",
+      "nom": "Ateliers 'Claude pour les pros'",
+      "resume": "Formations courtes (2 h a 1 jour) pour independants et PME: prompts, skills, connecteurs, cas metier.",
+      "requis": ["canva", "gmail"], "optionnels": ["notion", "claude_docs"],
+      "cout_depart_eur": 50, "heures_min_semaine": 6, "jours_premier_euro": 30,
+      "revenu_mensuel_eur": [0, 3000], "difficulte": 3, "risque": "faible",
+      "competences": ["pedagogie", "vente"],
+      "plan": [
+        "S1: programme d'atelier et slides Canva, support PDF en Claude Docs.",
+        "S2: atelier pilote gratuit ou a bas prix pour 5 personnes, recueillir les retours.",
+        "S3: contacter CCI, coworkings, associations pro par email.",
+        "S4: 2 ateliers payants programmes, offre intra-entreprise."
+      ],
+      "pieges": ["Les fonctions de Claude changent vite: mettre le support a jour chaque mois."],
+      "legal": "Pour etre finance par les OPCO/CPF il faut la certification Qualiopi; sinon vente directe."
+    },
+    {
+      "id": "etudes-de-marche",
+      "nom": "Etudes de marche et veille sur commande",
+      "resume": "Rapports sources et tableaux de bord pour createurs d'entreprise et PME, livres en Claude Docs ou dashboard Perplexity.",
+      "requis": ["claude_docs"], "optionnels": ["perplexity", "canva", "gmail"],
+      "cout_depart_eur": 0, "heures_min_semaine": 6, "jours_premier_euro": 30,
+      "revenu_mensuel_eur": [200, 2000], "difficulte": 3, "risque": "faible",
+      "competences": ["analyse", "redaction"],
+      "plan": [
+        "S1: 1 etude exemple complete et sourcee dans un secteur (ex: food trucks a Lyon).",
+        "S2: offre a prix fixe (ex: 290 EUR), contacts: incubateurs, experts-comptables.",
+        "S3: premieres commandes, tableau de bord livre via Perplexity Computer.",
+        "S4: abonnement de veille mensuelle."
+      ],
+      "pieges": ["Chaque chiffre doit avoir une source verifiable.", "Ne pas vendre de prevision comme une certitude."],
+      "legal": "Prestation intellectuelle (BNC)."
+    },
+    {
+      "id": "assistant-virtuel",
+      "nom": "Assistant(e) virtuel(le) augmente(e) par Claude",
+      "resume": "Tri d'emails, agenda, relances, comptes rendus pour dirigeants, en t'appuyant sur Gmail et Notion.",
+      "requis": ["gmail", "notion"], "optionnels": ["google_drive", "slack"],
+      "cout_depart_eur": 0, "heures_min_semaine": 10, "jours_premier_euro": 14,
+      "revenu_mensuel_eur": [400, 2500], "difficulte": 2, "risque": "faible",
+      "competences": ["organisation"],
+      "plan": [
+        "S1: offre a l'heure ou au forfait, process type documente dans Notion.",
+        "S2: prospecter des independants debordes (reseau, LinkedIn, email).",
+        "S3: premier client: acces delegue, routines quotidiennes.",
+        "S4: rapport hebdo, passage au forfait."
+      ],
+      "pieges": ["Confidentialite: acces delegue, jamais le mot de passe du client.", "Aucun envoi d'email au nom du client sans regle validee."],
+      "legal": "Prestation de services, clause de confidentialite."
+    },
+    {
+      "id": "pubs-video-ia",
+      "nom": "Publicites video IA pour marques e-commerce",
+      "resume": "Videos courtes produit (UGC style) generees avec Higgsfield et montees dans Canva.",
+      "requis": ["higgsfield", "canva"], "optionnels": ["shopify", "gmail"],
+      "cout_depart_eur": 60, "heures_min_semaine": 8, "jours_premier_euro": 30,
+      "revenu_mensuel_eur": [0, 3000], "difficulte": 3, "risque": "moyen",
+      "competences": ["video", "marketing"],
+      "plan": [
+        "S1: finir la connexion Higgsfield, 5 videos demo sur des produits fictifs.",
+        "S2: portfolio, offre par lot de 5 videos.",
+        "S3: prospecter des marques Shopify, 1 video offerte.",
+        "S4: livrer, mesurer les performances avec le client."
+      ],
+      "pieges": ["Jamais de faux temoignage presente comme reel: pratique commerciale trompeuse.", "Signaler les contenus generes par IA quand la plateforme l'exige."],
+      "legal": "Interdiction des avis et temoignages fictifs (Code de la consommation). Droits d'utilisation au contrat."
+    },
+    {
+      "id": "newsletter-niche",
+      "nom": "Newsletter de niche (gratuite puis payante ou sponsorisee)",
+      "resume": "Veille hebdomadaire sur un sujet precis, preparee avec Claude, envoyee sur une plateforme de newsletter.",
+      "requis": [], "optionnels": ["gmail", "notion", "canva", "stripe"],
+      "cout_depart_eur": 0, "heures_min_semaine": 4, "jours_premier_euro": 120,
+      "revenu_mensuel_eur": [0, 1000], "difficulte": 3, "risque": "faible",
+      "competences": ["redaction", "analyse"],
+      "plan": [
+        "S1: sujet, promesse, 3 numeros d'avance.",
+        "S2: plateforme d'envoi, page d'inscription, base de sources dans Notion.",
+        "S3: rythme fixe, partage dans des communautes.",
+        "S4: viser 500 abonnes avant sponsors ou abonnement payant."
+      ],
+      "pieges": ["Monetisation lente.", "Le copier-coller d'actualites n'a pas de valeur: l'analyse en a."],
+      "legal": "RGPD: consentement explicite, lien de desinscription."
+    },
+    {
+      "id": "education-trading",
+      "nom": "Contenu pedagogique sur les outils de ce depot (trading)",
+      "resume": "Tutoriels sur l'usage des skills trader-* en paper trading: methode, risque, outils. Jamais de conseil.",
+      "requis": ["github"], "optionnels": ["canva", "claude_docs", "notion"],
+      "cout_depart_eur": 0, "heures_min_semaine": 5, "jours_premier_euro": 90,
+      "revenu_mensuel_eur": [0, 800], "difficulte": 4, "risque": "eleve",
+      "competences": ["pedagogie", "finance"],
+      "plan": [
+        "S1: definir un angle purement educatif (outils, gestion du risque), pas de signaux.",
+        "S2: 3 tutoriels en paper trading avec avertissements.",
+        "S3: support PDF Claude Docs, visuels Canva.",
+        "S4: verifier le cadre legal avant toute offre payante."
+      ],
+      "pieges": ["Vendre des signaux ou des recommandations personnalisees releve du conseil en investissement reglemente.", "Ne jamais montrer de gains comme typiques."],
+      "legal": "En France, conseil en investissement = statut CIF et controle AMF. Influence financiere encadree (loi du 9 juin 2023). Rester strictement pedagogique."
+    }
+  ]
+}

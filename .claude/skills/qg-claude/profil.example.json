@@ -1,0 +1,10 @@
+{
+  "_note": "Copie dans qg/profil.json (python3 qg.py init) puis adapte. 'connecteurs' = ceux que ListConnectors montre connectes.",
+  "connecteurs": ["canva", "gmail", "notion", "perplexity", "shopify", "github", "claude_docs"],
+  "heures_semaine": 10,
+  "budget_depart_eur": 200,
+  "objectif_mensuel_eur": 500,
+  "competences": ["redaction", "design"],
+  "risque_max": "moyen",
+  "pays": "FR"
+}
